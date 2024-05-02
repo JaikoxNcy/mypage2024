@@ -38,4 +38,6 @@ table {
   tfoot td {
     font-weight: bold;
   }
-  
+.circle {
+  border-radius:100%;
+}
