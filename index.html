@@ -1,70 +1,42 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trademarks</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-	background-color: #b3d8f9;
-	}
-       hr {
-	background-color:white;
-	}
-
+        .button {
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
     </style>
-
 </head>
 <body>
-    <img src="maltese.jpg" alt="" style="width:50%; height:auto;" class="circle">
-    <h1 style="background-color: #EBE3D5;">Pornpavee Limsilajeerakul</h1>
-    <a href = "http://www.asean-tmview.org/tmview/welcome"> ASEAN Trademarks </a>
-    <br>
-    <a href = "https://branddb.wipo.int/en/quicksearch?sort=score%20desc&start=0&rows=30&asStructure=%7B%22boolean%22:%22AND%22,%22bricks%22:%5B%5D%7D&_=1704966912152"> WIPO Trademarks </a>
-    <br>
-    <a href="contact.html">Contact</a>
 
-    <hr style="border-style: inset;">
-    
+    <div class="Quiz-container">
+        <p>
+            <h1></h1>
+            <p id="question">Exp. ย่อมาจากอะไร ?</p>
+            <button class="button" onclick="checkAswer('a')">A) Expert</button>
+            <button class="button" onclick="checkAswer('b')">A) Expire</button>
+            <button class="button" onclick="checkAswer('c')">A) Expense</button>
+            <button class="button" onclick="checkAswer('d')">A) Express</button>
+            <p id="result"></p>
+        </p>
+    </div>
 
-    <h3>ประสบการณ์การทำงาน</h3>
-   <!-- <ul>
-        <li>2024 - 2022 CP ALL Public Company Ltd.</li>
-        <li>2021 - 2020 AIS Public Company Ltd.</li>
-        <li>2019 - 2017 SCG Public Company Ltd.</li>
-        <li>2016 PTT Public Company Ltd.</li>
-    </ul>-->
-
-<!--ทำให้ list นำเสนอออกมาเป็น table-->
-<table>
-    <thead>
-        <tr>
-            <th>
-            Year
-            </th>
-             <th>
-            Work Place
-            </th>
-        </tr>
-    </thead>
-    <tr>
-        <td>2024 - 2022</td>
-        <td>CP ALL Public Company Ltd.</td>
-    </tr>
-    <tr>
-        <td>2021 - 2020</td>
-        <td>AIS Public Company Ltd.</td>
-    </tr>
-    <tr>
-        <td>2019 - 2017</td>
-        <td>SCG Public Company Ltd.</td>
-    </tr>
-    <tr>
-        <td>2016</td>
-        <td>PTT Public Company Ltd.</td>
-    </tr>
-</table>
-
+    <div class="Quiz-container">
+        <p>
+            <h1></h1>
+            <p id="question">Rev. ย่อมาจากอะไร ?</p>
+            <button class="button" onclick="checkAswer('a')">A) Revise</button>
+            <button class="button" onclick="checkAswer('b')">A) Revenue</button>
+            <button class="button" onclick="checkAswer('c')">A) Reverse</button>
+            <button class="button" onclick="checkAswer('d')">A) Review</button>
+            <p id="result"></p>
+        </p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
